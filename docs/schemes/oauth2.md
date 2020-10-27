@@ -1,6 +1,6 @@
 # Oauth2
 
-[Source Code](https://github.com/nuxt-community/auth-module/blob/masterlib/schemes/oauth2.js)
+[Source Code](https://github.com/nuxt-community/auth-module/blob/master/lib/schemes/oauth2.js)
 
 `oauth2` supports various oauth2 login flows. There are many pre-configured providers like [auth0](../providers/auth0.md) that you may use instead of directly using this scheme.
 
@@ -67,7 +67,7 @@ By default is `Bearer`. It will be used in `Authorization` header of axios reque
 
 By default it will be inferred from `redirect.callback` option. (Defaults to `/login`)
 
-Should be same as login page or relative path to welcome screen. ([example](https://github.com/nuxt-community/auth-module/blob/masterexamples/demo/pages/callback.vue))
+Should be same as login page or relative path to welcome screen. ([example](https://github.com/nuxt-community/auth-module/blob/dev/examples/demo/pages/callback.vue))
 
 ### `client_id`
 
